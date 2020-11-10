@@ -40,8 +40,9 @@ class Owner
 
   def buy_cat(name)
     Cat.new(name, self)
-
   end
+
+  # marvin = Cat.new('Marvin')
 
   def buy_dog(name)
     Dog.new(name, self)
